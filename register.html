@@ -1,0 +1,99 @@
+<!doctype html>
+<html lang="hi">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Enter a Challenge — PRAMAAN</title>
+<link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+<div class="grain"></div>
+
+<nav class="nav">
+  <div class="wrap">
+    <a href="index.html" class="brand"><span class="dot"></span><div>PRAMAAN<small>PROOF OF STRENGTH</small></div></a>
+    <div class="navlinks">
+      <a href="index.html">Home</a>
+      <a href="challenges.html">Challenges</a>
+      <a href="leaderboard.html">Leaderboard</a>
+      <a href="gyms.html">Gym Partners</a>
+      <a href="how-it-works.html">Verification</a>
+    </div>
+    <div class="navcta">
+      <a href="register.html" class="btn btn-primary btn-sm active">Enter a Challenge</a>
+      <button class="burger" aria-label="Menu" aria-expanded="false">☰</button>
+    </div>
+  </div>
+</nav>
+
+<header class="pagehead">
+  <div class="wrap">
+    <div class="crumb"><a href="index.html">Home</a> / Register</div>
+    <div class="eyebrow">Step 1 of 3 — Basic Details</div>
+    <h2>Enter a challenge</h2>
+  </div>
+</header>
+
+<section class="pad" style="padding-top:44px;">
+  <div class="wrap trust-grid" style="align-items:flex-start;">
+
+    <div class="reveal">
+      <div class="eyebrow">What Happens Next</div>
+      <ul class="checklist">
+        <li><span class="mark">01</span><div><h4>Pick your challenge & category</h4><p>Choose the lift or physique challenge and your bodyweight class.</p></div></li>
+        <li><span class="mark">02</span><div><h4>Pay the entry fee</h4><p>₹159 / ₹199 / ₹299 depending on the challenge tier — secure payment, instant confirmation.</p></div></li>
+        <li><span class="mark">03</span><div><h4>Book a weigh-in slot</h4><p>Choose your nearest partner gym and a time for your on-camera weigh-in.</p></div></li>
+        <li><span class="mark">04</span><div><h4>Lift, get verified, get ranked</h4><p>Your trainer-witnessed attempt goes to judge review, then straight to the leaderboard.</p></div></li>
+      </ul>
+    </div>
+
+    <form class="form-card" id="registerForm">
+      <div class="field">
+        <label for="name">Full name</label>
+        <input id="name" type="text" placeholder="Your name" required>
+      </div>
+      <div class="field-row">
+        <div class="field">
+          <label for="phone">Phone number</label>
+          <input id="phone" type="tel" placeholder="+91" required>
+        </div>
+        <div class="field">
+          <label for="city">City</label>
+          <input id="city" type="text" placeholder="e.g. Delhi NCR" required>
+        </div>
+      </div>
+      <div class="field">
+        <label for="challenge">Challenge</label>
+        <select id="challenge">
+          <option>City Deadlift Open — Delhi NCR (₹299)</option>
+          <option>90-Day Shred Challenge (₹159)</option>
+          <option>Mumbai Bench Championship (₹199)</option>
+          <option>Bengaluru Squat Series (₹199)</option>
+        </select>
+      </div>
+      <div class="field">
+        <label for="cat2">Weight category</label>
+        <select id="cat2">
+          <option>59kg</option><option>66kg</option><option>74kg</option>
+          <option>83kg</option><option>93kg</option><option>93kg+</option>
+        </select>
+      </div>
+      <button type="submit" class="btn btn-primary btn-block">Pay & Continue to Weigh-in Booking</button>
+      <p style="font-size:12px; color:var(--chalk-dim); margin-top:14px;">By continuing you agree to the submission rules on the verification page — live footage only, on-camera weigh-in, trainer sign-off required.</p>
+    </form>
+
+  </div>
+</section>
+
+<footer>
+  <div class="wrap">
+    <div class="foot-bottom">
+      <span>©️ 2026 PRAMAAN. All lifts verified, all claims kept honest.</span>
+      <span><a href="index.html">Back to home</a></span>
+    </div>
+  </div>
+</footer>
+
+<script src="assets/script.js"></script>
+</body>
+</html>
