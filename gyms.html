@@ -1,0 +1,153 @@
+<!doctype html>
+<html lang="hi">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Partner Your Gym — PRAMAAN</title>
+<link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+<div class="grain"></div>
+
+<nav class="nav">
+  <div class="wrap">
+    <a href="index.html" class="brand"><span class="dot"></span><div>PRAMAAN<small>PROOF OF STRENGTH</small></div></a>
+    <div class="navlinks">
+      <a href="index.html">Home</a>
+      <a href="challenges.html">Challenges</a>
+      <a href="leaderboard.html">Leaderboard</a>
+      <a href="gyms.html" class="active">Gym Partners</a>
+      <a href="how-it-works.html">Verification</a>
+    </div>
+    <div class="navcta">
+      <a href="register.html" class="btn btn-primary btn-sm">Enter a Challenge</a>
+      <button class="burger" aria-label="Menu" aria-expanded="false">☰</button>
+    </div>
+  </div>
+</nav>
+
+<header class="hero" style="padding-bottom:60px;">
+  <div class="wrap hero-grid">
+    <div>
+      <div class="eyebrow">For Gym Owners & Trainers</div>
+      <h1 style="font-size:clamp(36px,5.6vw,64px);">Turn your floor into a <span class="accent">verification centre.</span></h1>
+      <p class="lead">Your members already train hard. PRAMAAN gives them a reason to compete — and gives you a new revenue line, foot traffic, and city-wide visibility, with zero new equipment.</p>
+      <div class="hero-actions">
+        <a href="#apply" class="btn btn-primary">Apply to Partner</a>
+        <a href="#how" class="btn btn-ghost">How it works for gyms</a>
+      </div>
+    </div>
+    <div class="plate-visual" aria-hidden="true">
+      <div class="plate p1"><span>380 GYMS LIVE</span></div>
+      <div class="plate p2"><span>42 CITIES</span></div>
+      <div class="plate p3">GYM<br>HQ</div>
+    </div>
+  </div>
+</header>
+
+<section class="pad" id="how">
+  <div class="wrap">
+    <div class="section-head reveal">
+      <div>
+        <div class="eyebrow">What Your Gym Does</div>
+        <h2>Three jobs, no new gear</h2>
+      </div>
+    </div>
+    <div class="steps reveal">
+      <div class="step">
+        <span class="num">01</span>
+        <h3>Weigh-in</h3>
+        <p>Use your existing digital scale to weigh members and their loaded barbell on camera before an attempt.</p>
+      </div>
+      <div class="step">
+        <span class="num">02</span>
+        <h3>Witness</h3>
+        <p>A trainer stays in frame during the lift and confirms it happened as recorded — no separate certification needed.</p>
+      </div>
+      <div class="step">
+        <span class="num">03</span>
+        <h3>Sign off</h3>
+        <p>Co-sign the submission in the PRAMAAN partner app with your Gym ID. Takes under a minute per attempt.</p>
+      </div>
+      <div class="step">
+        <span class="num">+</span>
+        <h3>Everything else</h3>
+        <p>Judge review, certificates, prize disbursal, and leaderboard hosting are handled entirely by PRAMAAN.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<div class="wrap"><div class="divider"></div></div>
+
+<section class="pad" id="revenue">
+  <div class="wrap trust-grid">
+    <div class="reveal">
+      <div class="eyebrow">What Your Gym Gets</div>
+      <h2>Members, revenue, and a badge that markets itself</h2>
+    </div>
+    <ul class="checklist reveal">
+      <li><span class="mark">→</span><div><h4>Revenue share</h4><p>A share of every entry fee collected through your gym's weigh-ins goes directly to you, paid monthly.</p></div></li>
+      <li><span class="mark">→</span><div><h4>New member acquisition</h4><p>Lifters searching for a nearby verification centre discover your gym through the PRAMAAN city directory.</p></div></li>
+      <li><span class="mark">→</span><div><h4>"Official Partner Gym" badge</h4><p>Use the verified badge on your own signage, Instagram, and Google listing — built-in credibility marketing.</p></div></li>
+      <li><span class="mark">→</span><div><h4>Your own gym leaderboard</h4><p>A branded internal leaderboard your members compete on daily, driving retention between challenge cycles.</p></div></li>
+    </ul>
+  </div>
+</section>
+
+<div class="wrap"><div class="divider"></div></div>
+
+<section class="pad" id="apply">
+  <div class="wrap trust-grid" style="align-items:flex-start;">
+    <div class="reveal">
+      <div class="eyebrow">Apply</div>
+      <h2>Partner your gym</h2>
+      <p class="lead" style="margin-top:16px;">Fill this in and our city onboarding team gets in touch within 3 working days to verify your equipment and schedule a walkthrough.</p>
+      <div class="seal" style="margin-top:44px;">
+        <div class="seal-text">OFFICIAL<b>PARTNER</b>GYM</div>
+      </div>
+    </div>
+
+    <form class="form-card" id="gymForm">
+      <div class="field">
+        <label for="gname">Gym name</label>
+        <input id="gname" type="text" placeholder="e.g. Iron Republic" required>
+      </div>
+      <div class="field-row">
+        <div class="field">
+          <label for="gcity">City</label>
+          <input id="gcity" type="text" placeholder="e.g. Delhi NCR" required>
+        </div>
+        <div class="field">
+          <label for="gowner">Owner / trainer name</label>
+          <input id="gowner" type="text" placeholder="Full name" required>
+        </div>
+      </div>
+      <div class="field">
+        <label for="gphone">Phone number</label>
+        <input id="gphone" type="tel" placeholder="+91" required>
+      </div>
+      <div class="field">
+        <label for="gscale">Do you have a calibrated digital scale?</label>
+        <select id="gscale">
+          <option>Yes</option>
+          <option>No, need one arranged</option>
+        </select>
+      </div>
+      <button type="submit" class="btn btn-primary btn-block">Submit Application</button>
+    </form>
+  </div>
+</section>
+
+<footer>
+  <div class="wrap">
+    <div class="foot-bottom">
+      <span>©️ 2026 PRAMAAN. All lifts verified, all claims kept honest.</span>
+      <span><a href="index.html">Back to home</a></span>
+    </div>
+  </div>
+</footer>
+
+<script src="assets/script.js"></script>
+</body>
+</html>
